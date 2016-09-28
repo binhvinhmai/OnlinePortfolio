@@ -1,0 +1,161 @@
+@charset "UTF-8";
+/* CSS Document */
+
+div h2 h3 {
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif
+}
+
+.resume_section{
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif
+}
+
+div p {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+
+#wrapper, img{
+    width:100%;
+    height:100%;
+}
+
+.aboutme {
+}
+
+ul.navigation_bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	overflow: hidden;
+	border: 1px solid #308d82;
+	width: 100%;
+	text-align: center;
+}
+
+li{
+	position:relative;
+	display: inline-block;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	padding: 10px;
+}
+
+li a {
+	color: #ff6700;
+	text-align: center;
+	text-decoration: none;
+	padding-top: 12px;
+	padding-right: 75px;
+	padding-left: 75px;
+	padding-bottom: 12px;
+}
+
+li a:hover {
+	background-color:#308d82;
+}
+
+.active {
+    background-color: #308d82;
+}
+
+#tile1 {
+    
+}
+
+#project {
+    background-color: #308d82;
+    padding: 5px;
+    color: white;
+}
+
+#project h1 {
+    padding-left: 5px;
+}
+
+#project p {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#project ul li{
+    list-style-type: disc;
+}
+
+#tile2 {
+    
+}
+
+#tile3 {
+    display:inline-block;
+    position:relative;
+    width: 45%;
+    padding-left: 10px;
+}
+
+#tile4 {
+    display:inline-block;
+    position: relative;
+    width: 48%;
+    float: right;
+    padding-right: 10px;
+    
+}
+
+#tile6 {
+    position: relative;
+    display: inline-block;
+    height: 400px;
+    width: 40%;    
+    max-width: 800px;
+    min-height: 250px;
+    min-width: 400px;
+    padding: 5px;
+}
+
+#tile7 {
+    position: relative;
+    display: inline-block;
+    height: 400px;
+    width: 200px;
+    padding: 5px;
+}
+
+#tile8 {
+    position: relative;
+    display: inline-block;
+    max-height: 400px;
+    max-width: 265px;
+    height: 400px;
+    width: auto;
+    padding: 5px;
+    
+}
+
+#drawing_series {
+    position: relative;
+    width: 100%;  
+    text-align: center;
+}
+
+#tile2 img {
+    position: relative;
+    display:inline-block;
+    max-height: 200px;
+    max-width: 300px;
+    min-height: 100px;
+    min-width: 140px;
+    height: auto;
+    width: 33%;
+    padding: 25px;
+}
+
+.project_title {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+
+.section_list_item {
+    position:relative;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    display:list-item;
+    list-style-type:none;
+    padding: 5px;
+    text-align: left;
+}
